@@ -1,0 +1,31 @@
+{
+  "name": "parkband",
+  "version": "1.0.0",
+  "description": "The Park Band mobile application. Created by Jim Lambert using Nodejs, MongoDB, Express and React.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm run --prefix frontend"
+  },
+  "keywords": [
+    "The",
+    "Park",
+    "Band",
+    "Mobile",
+    "Application"
+  ],
+  "author": "Jim Lambert",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.1"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
